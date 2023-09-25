@@ -1,10 +1,11 @@
-### INLCUDE
 """
 For generating the Facility grid
 """
+
 # OpenCage Geocoding API configuration
-api_key_opencage = "your_opencage_api"
+api_key_opencage = "ee1d26a2d84440dbb002b18998330ae9"  # INSERT YOUR API KEY HERE
 base_url_opencage = "https://api.opencagedata.com/geocode/v1/json"
+
 
 # Define the boundaries of Europe (latitude and longitude)
 min_lat = 36.0  # Southernmost point
@@ -12,19 +13,16 @@ max_lat = 71.0  # Northernmost point
 min_lon = -11.0  # Westernmost point
 max_lon = 40.0  # Easternmost point
 
-# Define the grid spacing (10000 kilometers or so)
-grid_spacing = 1  # About 1 degree latitude/longitude
+# Define the grid spacing
+grid_spacing = 1  # 1 degree latitude/longitude equals 10000 kilometers or so
 
 ### EXCLUDE
-
-
-### CODE
 
 # OpenRouteService API key and base URL
 api_key_openrouteservice = "your_openrouteservice_api"
 base_url_openrouteservice = "https://api.openrouteservice.org/v2/matrix/driving-hgv"  # hgv = heavy goods vehicle
 
-# Mapbox access token
+# Mapbox access token for visualizations
 mapbox_access_token = "your_mapbox_api"
 
 # Facility tonnes per year processed EOL LIBs [cell weight equivalents]
