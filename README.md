@@ -29,7 +29,6 @@
       </ul>
     </li>
     <li><a href="#usage">Usage</a></li>
-    <li><a href="#license">License</a></li>
     <li><a href="#contact">Contact</a></li>
   </ol>
 </details>
@@ -89,9 +88,15 @@ To get a local copy up and running follow these simple example steps.
 
   ### Running optimization
 
-1. Run Praparation.ipynb one time
+1. Run Praparation.ipynb one time and install any necessary packages
 
-2. Run Optimization.ipynb
+2. Open Optimization.ipynb and add an integer value for 'number_of_facilities'
+
+  ```py
+  number_of_facilities = 
+  ```
+3. Run Optimzation.ipynb install any necessary packages
+
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -123,17 +128,6 @@ Don't forget to give the project a star! Thanks again!
 5. Open a Pull Request
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
-
-
-
-<!-- LICENSE -->
-## License
-
-Distributed under the MIT License. See `LICENSE.txt` for more information.
-
-<p align="right">(<a href="#readme-top">back to top</a>)</p>
-
-
 
 <!-- CONTACT -->
 ## Contact
