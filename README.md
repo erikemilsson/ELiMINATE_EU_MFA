@@ -62,14 +62,6 @@ Code for the data and modelling of the material flow mapping and reverese logist
 This is an example of how you may give instructions on setting up your project locally.
 To get a local copy up and running follow these simple example steps.
 
-### Prerequisites
-
-This is an example of how to list things you need to use the software and how to install them.
-* npm
-  ```sh
-  npm install npm@latest -g
-  ```
-
 ### Installation
 
 1. Get free APIs keys at
@@ -77,18 +69,29 @@ This is an example of how to list things you need to use the software and how to
     - [OpenCage Geocoding API](https://opencagedata.com)
     - [openroute service](https://openrouteservice.org)
   
-3. Clone the repo
+2. Clone the repo
    ```sh
-   git clone https://github.com/github_username/repo_name.git
+   git clone https://github.com/erikemilsson/ELiMINATE_EU_MFA
    ```
-4. Install NPM packages
-   ```sh
-   npm install
+
+3. Enter your API keys in `constantsfile.py`
+   ```py
+   api_key_opencage = "your-api-key-here"
+   mapbox_access_token = "your-api-key-here"
+   api_key_openrouteservice = "your-api-key-here"
    ```
-5. Enter your API in `config.js`
-   ```js
-   const API_KEY = 'ENTER YOUR API';
-   ```
+   
+4. Enter your data to
+   - Demand.xlsx
+   - Facilities.xlsx
+   - Supplu.xlsx
+   - constantsfile.py
+
+  ### Running optimization
+
+1. Run Praparation.ipynb one time
+
+2. Run Optimization.ipynb
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
