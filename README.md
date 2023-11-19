@@ -11,35 +11,11 @@
 
 </div>
 
-<!-- TABLE OF CONTENTS -->
-<details>
-  <summary>Table of Contents</summary>
-  <ol>
-    <li>
-      <a href="#about-the-project">About The Project</a>
-      <ul>
-        <li><a href="#built-with">Built With</a></li>
-      </ul>
-    </li>
-    <li>
-      <a href="#getting-started">Getting Started</a>
-      <ul>
-        <li><a href="#prerequisites">Prerequisites</a></li>
-        <li><a href="#installation">Installation</a></li>
-      </ul>
-    </li>
-    <li><a href="#usage">Usage</a></li>
-    <li><a href="#contact">Contact</a></li>
-  </ol>
-</details>
-
 <!-- ABOUT THE PROJECT -->
-The code in the repository is based on the EU project <a href=https://www.vinnova.se/en/p/end-of-life-li-ion-battery-management-integration-and-technology-evaluation-eliminate/)https://www.vinnova.se/en/p/end-of-life-li-ion-battery-management-integration-and-technology-evaluation-eliminate/>ELiMINATE</a> in which a material flow mapping and reverse-logistics problem was solved for the lithium-ion battery supply chain. 
+The code in the repository is based on the EU project <a href=https://www.vinnova.se/en/p/end-of-life-li-ion-battery-management-integration-and-technology-evaluation-eliminate/)https://www.vinnova.se/en/p/end-of-life-li-ion-battery-management-integration-and-technology-evaluation-eliminate/>ELiMINATE</a> in which a reverse-logistics network optimization was solved for the lithium-ion battery supply chain. 
 
-This code for the data and modelling of the material flow mapping and reverese logistic network optimization done in Work Package 3B in the EU-funded project ELiMINATE <a href=https://www.vinnova.se/en/p/end-of-life-li-ion-battery-management-integration-and-technology-evaluation-eliminate/)https://www.vinnova.se/en/p/end-of-life-li-ion-battery-management-integration-and-technology-evaluation-eliminate/>ELiMINATE</a>
-
-
-<a href="https://github.com/erikemilsson/ELiMINATE_EU_MFA/blob/main/example_images/Collectors_Year_2030.png">
+The Supply and Demand Excel files were represented by the collectors and producers data (respectively):
+<a href="https://chart-studio.plotly.com/~erikemilsson/23/#/">
   <img src="https://github.com/erikemilsson/ELiMINATE_EU_MFA/blob/main/example_images/Collectors_Year_2030.png" width="400" height="300" alt="Collectors">
 </a>
 
@@ -47,11 +23,13 @@ This code for the data and modelling of the material flow mapping and reverese l
   <img src="https://github.com/erikemilsson/ELiMINATE_EU_MFA/blob/main/example_images/Producers_Year_2030.png" width="400" height="300" alt="Producers">
 </a>
 
-df
+The results of the optimization were presented with maps, like here:
 
 <a href="https://github.com/erikemilsson/ELiMINATE_EU_MFA/blob/main/example_images/optimization_novel1current1current2_CO2_2030.png">
   <img src="https://github.com/erikemilsson/ELiMINATE_EU_MFA/blob/main/example_images/optimization_novel1current1current2_CO2_2030.png" width="400" height="300" alt="Optimization">
 </a>
+
+To see more about the project, please refer to the report HERE.
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -63,7 +41,6 @@ df
 * <a href="https://mapbox.com">mapbox</a>
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
-
 
 
 <!-- GETTING STARTED -->
@@ -98,7 +75,7 @@ To get a local copy up and running follow these simple example steps.
    - Supplu.xlsx
    - constantsfile.py
 
-  ### Running optimization
+  ### Running Optimization
 
 1. Run Praparation.ipynb one time and install any necessary packages
 
@@ -115,6 +92,7 @@ To get a local copy up and running follow these simple example steps.
 
 
 <!-- USAGE EXAMPLES -->
+<!--
 ## Usage
 
 Use this space to show useful examples of how a project can be used. Additional screenshots, code examples and demos work well in this space. You may also link to more resources.
@@ -122,22 +100,7 @@ Use this space to show useful examples of how a project can be used. Additional 
 _For more examples, please refer to the [Documentation](https://example.com)_
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
-
-
-
-<!-- CONTRIBUTING -->
-## Contributing
-
-Contributions are what make the open source community such an amazing place to learn, inspire, and create. Any contributions you make are **greatly appreciated**.
-
-If you have a suggestion that would make this better, please fork the repo and create a pull request. You can also simply open an issue with the tag "enhancement".
-Don't forget to give the project a star! Thanks again!
-
-1. Fork the Project
-2. Create your Feature Branch (`git checkout -b feature/AmazingFeature`)
-3. Commit your Changes (`git commit -m 'Add some AmazingFeature'`)
-4. Push to the Branch (`git push origin feature/AmazingFeature`)
-5. Open a Pull Request
+-->
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
