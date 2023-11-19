@@ -35,9 +35,17 @@
 
 <!-- ABOUT THE PROJECT -->
 
-Here's a blank template to get started: To avoid retyping too much info. Do a search and replace with your text editor for the following: `github_username`, `repo_name`, `twitter_handle`, `linkedin_username`, `email_client`, `email`, `project_title`, `project_description`
+<a href="https://github.com/erikemilsson/ELiMINATE_EU_MFA/blob/main/example_images/Collectors_Year_2030.png">
+  <img src="https://github.com/erikemilsson/ELiMINATE_EU_MFA/blob/main/example_images/Collectors_Year_2030.png" width="400" height="300" alt="Collectors">
+</a>
 
-<iframe src="example_images/Producers_Year_2030.html" height="600" width="800"></iframe>
+<a href="https://github.com/erikemilsson/ELiMINATE_EU_MFA/blob/main/example_images/Producers_Year_2030.png">
+  <img src="https://github.com/erikemilsson/ELiMINATE_EU_MFA/blob/main/example_images/Producers_Year_2030.png" width="400" height="300" alt="Producers">
+</a>
+
+<a href="https://github.com/erikemilsson/ELiMINATE_EU_MFA/blob/main/example_images/optimization_novel1current1current2_CO2_2030.png">
+  <img src="https://github.com/erikemilsson/ELiMINATE_EU_MFA/blob/main/example_images/optimization_novel1current1current2_CO2_2030.png" width="400" height="300" alt="Optimization">
+</a>
 
 Code for the data and modelling of the material flow mapping and reverese logistic network optimization done in Work Package 3B in the EU-funded project ELiMINATE <a href=https://www.vinnova.se/en/p/end-of-life-li-ion-battery-management-integration-and-technology-evaluation-eliminate/)https://www.vinnova.se/en/p/end-of-life-li-ion-battery-management-integration-and-technology-evaluation-eliminate/>ELiMINATE</a>
 
