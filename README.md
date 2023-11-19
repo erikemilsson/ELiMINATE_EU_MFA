@@ -7,7 +7,7 @@
     <img src="images/logo.png" alt="Logo" width="80" height="80">
   </a>
 
-<h3 align="center">ELiMINATE MFA Optimization</h3>
+<h3 align="center">A Supplier-Facility-Customer facility optimization problem with linear programming.</h3>
 
 </div>
 
@@ -34,25 +34,26 @@
 </details>
 
 <!-- ABOUT THE PROJECT -->
+The code in the repository is based on the EU project <a href=https://www.vinnova.se/en/p/end-of-life-li-ion-battery-management-integration-and-technology-evaluation-eliminate/)https://www.vinnova.se/en/p/end-of-life-li-ion-battery-management-integration-and-technology-evaluation-eliminate/>ELiMINATE</a> in which a material flow mapping and reverse-logistics problem was solved for the lithium-ion battery supply chain. 
+
+This code for the data and modelling of the material flow mapping and reverese logistic network optimization done in Work Package 3B in the EU-funded project ELiMINATE <a href=https://www.vinnova.se/en/p/end-of-life-li-ion-battery-management-integration-and-technology-evaluation-eliminate/)https://www.vinnova.se/en/p/end-of-life-li-ion-battery-management-integration-and-technology-evaluation-eliminate/>ELiMINATE</a>
+
 
 <a href="https://github.com/erikemilsson/ELiMINATE_EU_MFA/blob/main/example_images/Collectors_Year_2030.png">
   <img src="https://github.com/erikemilsson/ELiMINATE_EU_MFA/blob/main/example_images/Collectors_Year_2030.png" width="400" height="300" alt="Collectors">
 </a>
 
-<a href="https://github.com/erikemilsson/ELiMINATE_EU_MFA/blob/main/example_images/Producers_Year_2030.png">
+<a href="https://chart-studio.plotly.com/~erikemilsson/5">
   <img src="https://github.com/erikemilsson/ELiMINATE_EU_MFA/blob/main/example_images/Producers_Year_2030.png" width="400" height="300" alt="Producers">
 </a>
+
+df
 
 <a href="https://github.com/erikemilsson/ELiMINATE_EU_MFA/blob/main/example_images/optimization_novel1current1current2_CO2_2030.png">
   <img src="https://github.com/erikemilsson/ELiMINATE_EU_MFA/blob/main/example_images/optimization_novel1current1current2_CO2_2030.png" width="400" height="300" alt="Optimization">
 </a>
 
-Code for the data and modelling of the material flow mapping and reverese logistic network optimization done in Work Package 3B in the EU-funded project ELiMINATE <a href=https://www.vinnova.se/en/p/end-of-life-li-ion-battery-management-integration-and-technology-evaluation-eliminate/)https://www.vinnova.se/en/p/end-of-life-li-ion-battery-management-integration-and-technology-evaluation-eliminate/>ELiMINATE</a>
-
-
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
-
-
 
 ### Built With
 
@@ -68,6 +69,7 @@ Code for the data and modelling of the material flow mapping and reverese logist
 <!-- GETTING STARTED -->
 ## Getting Started
 
+The repository and the sample data is currently applied to a forecast of the European battery market for 2030.
 This is an example of how you may give instructions on setting up your project locally.
 To get a local copy up and running follow these simple example steps.
 
