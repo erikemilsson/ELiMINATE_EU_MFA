@@ -3,8 +3,8 @@
 <!-- PROJECT LOGO -->
 <br />
 <div align="center">
-  <a href="https://github.com/github_username/repo_name">
-    <img src="images/logo.png" alt="Logo" width="80" height="80">
+  <a href="https://github.com/erikemilsson/ELiMINATE_EU_MFA">
+    <img src="example_images/Eliminate_logo.png" alt="Logo">
   </a>
 
 <h3 align="center">A Supplier-Facility-Customer facility optimization problem with linear programming.</h3>
