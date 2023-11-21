@@ -72,7 +72,7 @@ To get a local copy up and running follow these simple example steps.
 4. Enter your data to
    - Demand.xlsx
    - Facilities.xlsx
-   - Supplu.xlsx
+   - Supply.xlsx
    - constantsfile.py
 
   ### Running Optimization
