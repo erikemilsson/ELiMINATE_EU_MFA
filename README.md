@@ -12,7 +12,7 @@
 </div>
 
 <!-- ABOUT THE PROJECT -->
-The code in the repository is based on the EU project <a href=https://www.vinnova.se/en/p/end-of-life-li-ion-battery-management-integration-and-technology-evaluation-eliminate/)https://www.vinnova.se/en/p/end-of-life-li-ion-battery-management-integration-and-technology-evaluation-eliminate/>ELiMINATE</a> in which a reverse-logistics network optimization was solved for the lithium-ion battery supply chain. 
+The code in this repository is based on the EU project <a href="https://www.vinnova.se/en/p/end-of-life-li-ion-battery-management-integration-and-technology-evaluation-eliminate/">ELiMINATE</a> (End-of-Life Li-ion Battery Management Integration and Technology Evaluation), in which a reverse-logistics network optimization was solved for the lithium-ion battery supply chain. 
 
 The Supply and Demand Excel files were represented by the collectors and producers data (respectively):
 <a href="https://chart-studio.plotly.com/~erikemilsson/23/#/">
@@ -62,11 +62,15 @@ To get a local copy up and running follow these simple example steps.
    git clone https://github.com/erikemilsson/ELiMINATE_EU_MFA
    ```
 
-3. Enter your API keys in `constantsfile.py`
-   ```py
-   api_key_opencage = "your-api-key-here"
-   mapbox_access_token = "your-api-key-here"
-   api_key_openrouteservice = "your-api-key-here"
+3. Create a `.env` file in the project root and add your API keys:
+   ```sh
+   cp .env.example .env
+   ```
+   Then edit `.env` and add your actual API keys:
+   ```
+   OPENCAGE_API_KEY=your-opencage-api-key-here
+   MAPBOX_ACCESS_TOKEN=your-mapbox-token-here
+   OPENROUTESERVICE_API_KEY=your-openrouteservice-key-here
    ```
    
 4. Enter your data to
@@ -75,16 +79,21 @@ To get a local copy up and running follow these simple example steps.
    - Supply.xlsx
    - constantsfile.py
 
-  ### Running Optimization
+### Running Optimization
 
-1. Run Praparation.ipynb one time and install any necessary packages
+1. Install dependencies:
+   ```sh
+   pip install -r requirements.txt
+   ```
 
-2. Open Optimization.ipynb and add an integer value for 'number_of_facilities'
+2. Run `Preparation (run before optimization).ipynb` one time to generate the preprocessed data
 
-  ```py
-  number_of_facilities = 
-  ```
-3. Run Optimzation.ipynb install any necessary packages
+3. Open `Optimization.ipynb` and set the number of facilities to optimize for:
+   ```py
+   number_of_facilities = 3  # Example: optimize for 3 facilities
+   ```
+
+4. Run `Optimization.ipynb` to solve the optimization problem and visualize results
 
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
@@ -107,7 +116,7 @@ _For more examples, please refer to the [Documentation](https://example.com)_
 <!-- CONTACT -->
 ## Contact
 
-Erik Emilsson - erik.emilsson@ivl.se
+Erik Emilsson - [www.erikemilsson.com](https://www.erikemilsson.com)
 
 Project Link: [https://github.com/erikemilsson/ELiMINATE_EU_MFA](https://github.com/erikemilsson/ELiMINATE_EU_MFA)
 
