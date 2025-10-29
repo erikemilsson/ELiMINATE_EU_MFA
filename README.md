@@ -29,7 +29,7 @@ The results of the optimization were presented with maps, like here:
   <img src="https://github.com/erikemilsson/ELiMINATE_EU_MFA/blob/main/example_images/optimization_novel1current1current2_CO2_2030.png" width="400" height="300" alt="Optimization">
 </a>
 
-To see more about the project, please refer to the report HERE.
+To see more about the project, please refer to the [report](https://ivl.diva-portal.org/smash/get/diva2:1822105/FULLTEXT01.pdf).
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -117,7 +117,5 @@ _For more examples, please refer to the [Documentation](https://example.com)_
 ## Contact
 
 Erik Emilsson - [www.erikemilsson.com](https://www.erikemilsson.com)
-
-Project Link: [https://github.com/erikemilsson/ELiMINATE_EU_MFA](https://github.com/erikemilsson/ELiMINATE_EU_MFA)
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
