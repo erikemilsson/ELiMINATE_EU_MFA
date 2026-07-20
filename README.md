@@ -7,7 +7,7 @@
     <img src="example_images/Eliminate_logo.png" alt="Logo">
   </a>
 
-<h3 align="center">A Supplier-Facility-Customer facility optimization problem with linear programming.</h3>
+<h3 align="center">A capacitated Supplier-Facility-Customer facility location problem, solved with mixed-integer linear programming.</h3>
 
 </div>
 
@@ -31,11 +31,28 @@ The results of the optimization were presented with maps, like here:
 
 To see more about the project, please refer to the [report](https://ivl.diva-portal.org/smash/get/diva2:1822105/FULLTEXT01.pdf).
 
+### A note on the data in this repository
+
+**The input data here is synthetic. Running this code does not reproduce the ELiMINATE
+results** — the underlying volumes came from commercial market data that cannot be
+republished. What this repository demonstrates is the method, not the findings. Specifically:
+
+* `Supply.xlsx` — randomly generated placeholder volumes, scaled to roughly the order of
+  magnitude of EU-wide end-of-life lithium-ion arisings (~600 kt/yr). They are not
+  collection estimates for the cities they are attached to.
+* `Demand.xlsx` — locations and announced capacities are public information, converted
+  from GWh to cell-mass equivalent at 5,000 t/GWh (200 Wh/kg).
+* `Fixed_costs.xlsx` — placeholder values, not the study's facility cost model.
+
+The published study also modelled several things this repository does not: four technology
+pathways, a CO2 objective alongside the cost objective, upper and lower transport cost
+bounds, and three scenario years (2022/2026/2030). See the report for those results.
+
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
 ### Built With
 
-* <a href="https://pypi.org/project/PuLP">PuLP 2.7.0</a>
+* <a href="https://pypi.org/project/PuLP">PuLP</a> (with the bundled CBC solver)
 * <a href="https://opencagedata.com">OpenCage Geocoding API</a>
 * <a href="https://plotly.com">plotly</a>
 * <a href="https://mapbox.com">mapbox</a>
@@ -46,9 +63,9 @@ To see more about the project, please refer to the [report](https://ivl.diva-por
 <!-- GETTING STARTED -->
 ## Getting Started
 
-The repository and the sample data is currently applied to a forecast of the European battery market for 2030.
-This is an example of how you may give instructions on setting up your project locally.
-To get a local copy up and running follow these simple example steps.
+The repository is set up around the European battery market for 2030, using the synthetic
+sample data described above rather than the study's own inputs.
+To get a local copy up and running follow these steps.
 
 ### Installation
 
