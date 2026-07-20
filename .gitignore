@@ -52,6 +52,11 @@ optimization_results.csv
 Supply_to_Facility_distances.xlsx
 Facility_to_Demand_distances.xlsx
 
+# Local-only working copy of the real ELiMINATE project: commercial market
+# volumes, the ORS distance matrices, live API keys and the original notebooks.
+# NEVER commit. Not backed up by git either - see private_data/README.txt
+private_data/
+
 # Virtual environments
 venv/
 env/
